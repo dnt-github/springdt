@@ -8,6 +8,7 @@ public class SpringDTApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringDTApplication.class, args);
+        System.out.println("Welcome to SpringDT");
     }
 
 }
