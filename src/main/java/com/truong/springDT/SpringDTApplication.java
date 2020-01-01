@@ -19,7 +19,7 @@ public class SpringDTApplication {
 
     }
 
-    @Bean
+   // @Bean
     CommandLineRunner runner(LinkRepositoy linkRepositoy, CommentRepository commentRepository){
         return args ->{
             Link link = new Link("sp 2 test", "http://www.yahoo.com");
